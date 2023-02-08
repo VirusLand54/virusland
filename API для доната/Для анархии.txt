@@ -1,0 +1,3 @@
+<script src="https://api.trademc.org/trademcapi.js"></script>
+<div id="donate-anarchy"></div>
+<script>TrademcAPI.GetBuyForm({"Shop":"200680","Title":"Купить донат - АНАРХИЯ","Nickname":"Введите ваш никнейм","Item":"Выберите товар","Coupon":"Введите купон, если есть","Button":"Купить","Success_URL":"https://virusland.ru","Pending_URL":"https://virusland.ru/donate-time","Fail_URL":"https://virusland.ru/donate-none","PastPlaceID":"donate-anarchy"});</script>

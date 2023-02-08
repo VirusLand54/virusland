@@ -1,0 +1,244 @@
+@font-face {
+    font-family: comfortaa;
+    src: url(fonts/Comfortaa-Light.ttf);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/Montserrat-Regular.ttf)
+}
+@font-face {
+    font-family:Manrope;
+    src: url(fonts/Manrope-Light.ttf);
+}
+nav
+{
+    margin-left: 750px;
+    padding-bottom: 60px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 319px;
+    display: table;
+    transform: translateY(-50%);
+}
+
+nav a
+{
+    position: relative;
+    width: 33.333%;
+    display: table-cell;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    transition: 0.2s ease color;
+}
+
+nav a:before, nav a:after
+{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.2s ease transform;
+}
+
+nav a:before
+{
+    left: 10px;
+    width: 6px;
+    height: 6px;
+}
+
+nav a:after
+{
+    left: 18px;
+    width: 4px;
+    height: 4px
+}
+
+nav a:nth-child(1):before
+{
+    background-color: yellow;
+}
+
+nav a:nth-child(1):after
+{
+    background-color: red;
+}
+
+nav a:nth-child(2):before
+{
+    background-color: #00e2ff;
+}
+
+nav a:nth-child(2):after
+{
+    background-color: #89ff00;
+}
+
+nav a:nth-child(3):before
+{
+    background-color: purple;
+}
+
+nav a:nth-child(3):after
+{
+    background-color: palevioletred;
+}
+
+#indicator
+{
+    margin-bottom: 50px;
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background-color: #000000;
+    border-radius: 5px;
+    transition: 0.2s ease left;
+}
+
+nav a:hover
+{
+    color: black;
+}
+
+nav a:hover:before, nav a:hover:after
+{
+    transform: scale(1);
+}
+
+nav a:nth-child(1):hover ~ #indicator
+{
+    background: linear-gradient(130deg, yellow, red);
+}
+
+nav a:nth-child(2):hover ~ #indicator
+{
+    left: 34%;
+    background: linear-gradient(130deg, #00e2ff, #89ff00);
+}
+
+nav a:nth-child(3):hover ~ #indicator
+{
+    left: 70%;
+    background: linear-gradient(130deg, purple, palevioletred);
+}
+
+#ytd-url {
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  font-family: Arial;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
+  z-index: 125;
+}
+.SiteTitle {
+    padding-top: 0px;
+    padding-left: 100px;
+    background-color: orange;
+    border-radius: 30px;
+    width: 95%;
+    display: flex;
+    margin-top: 50px;
+}
+.h1SiteTitle {
+    color:  white;
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+.SloganServer {
+    font-family: comfortaa;
+    font-size: 50px;
+    color: whitesmoke;
+}
+body {
+    background-image: url(images/background.webp);
+}
+.server-online {
+    font-family: montserrat;
+    font-style: italic;
+    font-weight: 700; 
+}
+.why_are_we {
+    margin-top: 50px;
+}
+.donate {
+    text-decoration: none;
+}
+.donate:hover {
+    color: cornflowerblue;
+}
+.donate {
+    color: black;
+}
+.P1Why_Are_We {
+    color: black;
+    font-size: 20px;
+    font-family: montserrat;
+}
+.H1Why_Are_We {
+    color: cornflowerblue;
+    font-family: comfortaa;
+    font-size: 50px;
+}
+.sots_seti_H1 {
+    font-family: Manrope;
+    color: cornflowerblue;
+    font-size: 50px;
+}
+.sots_seti {
+    margin-top: 60px;
+}
+.VK_img, .YT_img, .TG_img {
+    width: 300px;
+    height: 300px;
+    transition-duration: 1s;
+}
+.sots_seti_img {
+    display: flex;
+}
+.YT_img {
+    margin-left: 50px;
+}
+.TG_img {
+    margin-left: 50px;
+}
+.VK_img:hover {
+    filter: brightness(40%)
+}
+.YT_img:hover {
+    filter: brightness(40%)
+}
+.TG_img:hover {
+    filter: brightness(40%)
+}
+.ServerIPCoppied {
+    transform: translateY(-10000000%);
+    color: white;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.ServerIPCoppied.active {
+    transform: translateY(-0%);
+    animation: slide 12s infinite;
+}
+.ServerIP {
+    font-size: 40px;
+    font-family: comfortaa;
+    color: ivory;
+}
+.CopyText {
+    margin-top: 65px;
+}
