@@ -169,3 +169,18 @@ body {
 .yt-h1 {
     margin-left: 565px;
 }
+.footer-img {
+    height: 40px;
+    width: 40px;
+
+}
+footer {
+    margin-top: 100px;
+    background-color: #171717;
+    display: flex;
+    font-family: comfortaa;
+}
+.copirate {
+    display: flex;
+    padding-left: 10px;
+}
