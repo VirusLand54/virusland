@@ -249,8 +249,8 @@ body {
 }
 footer {
     margin-top: 100px;
-    background-color: #171717 !important;
-    display: flex !important;
+    background-color: #171717;
+    display: flex;
     font-family: comfortaa;
 }
 .copirate {
