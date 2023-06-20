@@ -405,3 +405,7 @@ footer {
     display: flex;
     padding-left: 10px;
 }
+.srv-online {
+    width: 300px
+    height: 100px
+}
