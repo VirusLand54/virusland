@@ -327,5 +327,9 @@ footer {
     padding-left: 10px;
 }
 .giveyt-button: {
-    background-color: black;
+    background-color: orange;
+}
+.giveyt-button-text: {
+    font-family: comfortaa;
+    color: white
 }
