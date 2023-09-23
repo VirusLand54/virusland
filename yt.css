@@ -298,6 +298,7 @@ body {
     background-image: url(images/background.webp);
     background-color: #292929;
     overflow: scroll;
+    font-family: comfortaa
 }
 .server-rules {
     text-decoration: none;
